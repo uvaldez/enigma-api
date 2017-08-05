@@ -1,12 +1,12 @@
 import Sequelize from 'sequelize';
 
 const Conn = new Sequelize(
-  'enigma',
-  'uzielvaldez',
-  'postgres',
+  'db3tnug1mbi5fl',
+  'mkmpkmupdsptko',
+  '4c5745a07d77b5f46c19093d78003b06708730e0c01670e82354c5e6e70b67cf',
   {
     dialect: 'postgres',
-    host: 'localhost',
+    host: 'ec2-54-221-244-196.compute-1.amazonaws.com',
   },
 );
 
