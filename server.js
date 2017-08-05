@@ -5,7 +5,7 @@ import Schema from './src/backend/schema';
 
 
 // config
-const APP_PORT = 8000;
+const APP_PORT = (process.env.PORT || 8000);
 const app = new Express();
 
 app.use(cors());
