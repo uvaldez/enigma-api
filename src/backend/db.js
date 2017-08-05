@@ -42,8 +42,8 @@ const Message = Conn.define('messages', {
   },
 });
 
-Conn.sync({ force: true }).then(() => {
-  console.log('Tables were created!');
-});
+// Conn.sync({ force: true }).then(() => {
+//   console.log('Tables were created!');
+// });
 
 export default Conn;
