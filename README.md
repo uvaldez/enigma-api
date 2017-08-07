@@ -10,6 +10,7 @@ A web server that lets users create an encrypted message given a random passphra
 4. Visit `localhost:8000/graphql` in your browser
 
 ```
+Production URL: https://enigma-api.herokuapp.com/graphql
 
 Table Message should be created once you run npm start, if not run ```sequelize db:migrate``` in order to create the table
 
